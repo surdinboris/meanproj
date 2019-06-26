@@ -12,5 +12,6 @@ console.log(jamieAuthor);
 
 mongoose.connect('mongodb://localhost/mongoose_basics').then(res=>{
     jamieAuthor.save(function(err) {
-        if (err) throw err;})
+        if (err) throw err;});
 });
+
